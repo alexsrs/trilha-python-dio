@@ -11,7 +11,7 @@ class Estudante:
 
 def mostrar_valores(*objs):
     for obj in objs:
-        print(obj)
+       print(obj)
 
 
 aluno_1 = Estudante("Guilherme", 1)
@@ -21,3 +21,8 @@ mostrar_valores(aluno_1, aluno_2)
 Estudante.escola = "Python"
 aluno_3 = Estudante("Chappie", 3)
 mostrar_valores(aluno_1, aluno_2, aluno_3)
+
+#print(aluno_1)
+#print(aluno_2)
+
+
